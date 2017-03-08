@@ -20,7 +20,8 @@ public class ArithmeticExpressionTest {
         System.out.println("365의 10의 자리수=" + (365%100)/10);
         System.out.println("365의 1의 자리수=" + (365%10));
 
-        System.out.println("365는 홀수 인가? " + 365%2);
+        System.out.println("365 % 2 =" + 365 % 2);    //1이면 홀수, 0이면 짝수
 
+        System.out.println("366 % 3 =" + 366 % 3);     // 0이면 3의 배수,
     }
 }
