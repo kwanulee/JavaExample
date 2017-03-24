@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/DogSimulator(Static)/DogSimulator(Static).iml" filepath="$PROJECT_DIR$/DogSimulator(Static)/DogSimulator(Static).iml" />
       <module fileurl="file://$PROJECT_DIR$/DogSimulator1/DogSimulator1.iml" filepath="$PROJECT_DIR$/DogSimulator1/DogSimulator1.iml" />
       <module fileurl="file://$PROJECT_DIR$/DogSimulator2/DogSimulator2.iml" filepath="$PROJECT_DIR$/DogSimulator2/DogSimulator2.iml" />
       <module fileurl="file://$PROJECT_DIR$/DogSimulator3/DogSimulator3.iml" filepath="$PROJECT_DIR$/DogSimulator3/DogSimulator3.iml" />
