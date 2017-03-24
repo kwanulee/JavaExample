@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AnimalSimulator(Inheritance)/AnimalSimulator(Inheritance).iml" filepath="$PROJECT_DIR$/AnimalSimulator(Inheritance)/AnimalSimulator(Inheritance).iml" />
+      <module fileurl="file://$PROJECT_DIR$/ClassInheritance.iml" filepath="$PROJECT_DIR$/ClassInheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DogSImulator(Inheritance_Constructor)/DogSImulator(Inheritance_Constructor).iml" filepath="$PROJECT_DIR$/DogSImulator(Inheritance_Constructor)/DogSImulator(Inheritance_Constructor).iml" />
+      <module fileurl="file://$PROJECT_DIR$/DogSimulator(Inheritance)/DogSimulator(Inheritance).iml" filepath="$PROJECT_DIR$/DogSimulator(Inheritance)/DogSimulator(Inheritance).iml" />
+    </modules>
+  </component>
+</project>
