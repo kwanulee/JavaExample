@@ -58,9 +58,7 @@ class Animal {
     public void sleep() {
         System.out.println(type+":"+name +"(이/가) 잠자는 중입니다");
     }
-    public void move() {
-        System.out.println(type+":"+name +"(이/가) 이동 중입니다");
-    }
+    public void move() { System.out.println(type+":"+name +"(이/가) 이동 중입니다"); }
 
     public String getType() { return type; }
     public String getName() {
