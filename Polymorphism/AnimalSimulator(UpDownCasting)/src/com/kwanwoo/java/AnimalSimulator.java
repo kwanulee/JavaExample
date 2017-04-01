@@ -7,19 +7,19 @@ public class AnimalSimulator {
     public static void main(String[] args) {
         final int MAX_ANIMALS=9;
 
-        Animal[] animals = new Dog[MAX_ANIMALS];
+        Animal[] animals = new Animal[MAX_ANIMALS];
 
         animals[0] = new Dog("진도개", "화랑", 3);
         animals[1] = new Dog("삽살개","레오",2);
         animals[2] = new Dog("치와와","예삐",4);
 
-        animals[0] = new Cat("페르시안 고양이", "네로", 3);
-        animals[1] = new Cat("샴 고양이", "나비", 5);
-        animals[2] = new Cat("레그돌 고양이", "냥이", 2);
+        animals[3] = new Cat("페르시안 고양이", "네로", 3);
+        animals[4] = new Cat("샴 고양이", "나비", 5);
+        animals[5] = new Cat("레그돌 고양이", "냥이", 2);
 
-        animals[0] = new Duck("집오리", "도널드",2);
-        animals[1] = new Duck("청둥오리", "하늘",2);
-        animals[2] = new Duck("원앙", "잉꼬",2);
+        animals[6] = new Duck("집오리", "도널드",2);
+        animals[7] = new Duck("청둥오리", "하늘",2);
+        animals[8] = new Duck("원앙", "잉꼬",2);
 
         for (int i=0; i<9; i++) {
 
