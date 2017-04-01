@@ -88,7 +88,7 @@ class Animal {
     public void move() {
         System.out.println(name +"(이/가) 이동 중입니다");
     }
-    public void speak() { System.out.print(getName() +"(이/가)  말하고 있습니다: ");}
+    public void speak() { }
 
     public String getType() { return type; }
     public String getName() {
@@ -115,7 +115,7 @@ class Dog extends Animal {
 
     public void speak() {
         super.speak();
-        System.out.println("멍멍");
+        System.out.println(getName()+ "(이/가) 멍멍 하고 있습니다");
     }
 }
 
@@ -127,7 +127,7 @@ class Cat extends Animal {
 
     public void speak() {
         super.speak();
-        System.out.println("야옹");
+        System.out.println("(이/가) 야옹 하고 있습니다");
     }
 
 }
@@ -140,7 +140,7 @@ class Duck extends Animal {
 
     public void speak() {
         super.speak();
-        System.out.println("꽥꽥");
+        System.out.println("(이/가) 꽥꽥 하고 있습니다");
     }
 
     public void swim() { System.out.println(getName() +"(이/가)  헤엄치고 있습니다"); }
