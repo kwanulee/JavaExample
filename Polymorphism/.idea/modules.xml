@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AnimalSimulator(AbstractClass)/AnimalSimulator(AbstractClass).iml" filepath="$PROJECT_DIR$/AnimalSimulator(AbstractClass)/AnimalSimulator(AbstractClass).iml" />
+      <module fileurl="file://$PROJECT_DIR$/AnimalSimulator(Interface)/AnimalSimulator(Interface).iml" filepath="$PROJECT_DIR$/AnimalSimulator(Interface)/AnimalSimulator(Interface).iml" />
       <module fileurl="file://$PROJECT_DIR$/AnimalSimulator(MethodOverriding)/AnimalSimulator(MethodOverriding).iml" filepath="$PROJECT_DIR$/AnimalSimulator(MethodOverriding)/AnimalSimulator(MethodOverriding).iml" />
       <module fileurl="file://$PROJECT_DIR$/AnimalSimulator(UpDownCasting)/AnimalSimulator(UpDownCasting).iml" filepath="$PROJECT_DIR$/AnimalSimulator(UpDownCasting)/AnimalSimulator(UpDownCasting).iml" />
       <module fileurl="file://$PROJECT_DIR$/Polymorphism.iml" filepath="$PROJECT_DIR$/Polymorphism.iml" />

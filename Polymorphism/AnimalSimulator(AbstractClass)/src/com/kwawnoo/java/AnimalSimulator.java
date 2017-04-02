@@ -1,16 +1,18 @@
-package com.kwanwoo.java;
+package com.kwawnoo.java;
 
 /**
- * com.kwanwoo.java.AnimalSimulator
- * 3개의 com.kwanwoo.java.Dog 객체, 3개의 com.kwanwoo.java.Cat 객체
- * 3개의 com.kwanwoo.java.Duck 객체를 생성하여 이들을 Animal 객체 배열에 저장한다.
+ * com.kwanwoo.java.com.kwawnoo.java.AnimalSimulator
+ * 3개의 com.kwanwoo.java.com.kwawnoo.java.Dog 객체, 3개의 com.kwanwoo.java.com.kwawnoo.java.Cat 객체
+ * 3개의 com.kwanwoo.java.com.kwawnoo.java.Duck 객체를 생성하여 이들을 com.kwawnoo.java.Animal 객체 배열에 저장한다.
  *
- * Animal 객체 배열에서 랜덤으로 선택된 com.kwanwoo.java.Animal 객체의 상태를 출력하는
+ * com.kwawnoo.java.Animal 객체 배열에서 랜덤으로 선택된 com.kwanwoo.java.com.kwawnoo.java.Animal 객체의 상태를 출력하는
  * 과정을 열번 반복하는 간단한 시뮬레이터 프로그램이다
  *
- * 이 버전은 기존 버전(https://github.com/kwanulee/JavaExample/blob/master/Polymorphism/AnimalSimulator(UpDownCasting)/src/com/kwanwoo/java/AnimalSimulator.java)
- * 에 비해 Animal 클래스와 그의 서브클래스들의 speak() 메소드에 다형성 개념을 적용시킴으로써,
- * AnimalSimulator(UpDownCasting) 버전의 46-51 줄의 코드를 아래 코드의 43번째 줄(animal.speak())로 간략화 시킬 수 있다
+ * @see <a href="https://github.com/kwanulee/JavaExample/blob/master/Polymorphism/AnimalSimulator(UpDownCasting)/src/com/kwanwoo/java/AnimalSimulator.java">
+ *     https://github.com/kwanulee/JavaExample/blob/master/Polymorphism/AnimalSimulator(UpDownCasting)/src/com/kwanwoo/java/AnimalSimulator.java</a>
+ *
+ * 이 버전은 기존 버전에 비해 com.kwawnoo.java.Animal 클래스와 그의 서브클래스들의 speak() 메소드에 다형성 개념을 적용시킴으로써,
+ * com.kwawnoo.java.AnimalSimulator(UpDownCasting) 버전의 46-51 줄의 코드를 아래 코드의 43번째 줄(animal.speak())로 간략화 시킬 수 있다
  */
 public class AnimalSimulator {
     public static void main(String[] args) {
@@ -64,7 +66,7 @@ public class AnimalSimulator {
     }
 }
 
-class Animal {
+abstract class Animal {
     protected String type;
     private String name;
     private int age;
@@ -88,7 +90,7 @@ class Animal {
     public void move() {
         System.out.println(name +"(이/가) 이동 중입니다");
     }
-    public void speak() { }
+    abstract public void speak();
 
     public String getType() { return type; }
     public String getName() {
@@ -125,7 +127,7 @@ class Cat extends Animal {
     }
 
     public void speak() {
-        System.out.println(getName() + "(이/가) 야옹 하고 있습니다");
+        System.out.println("(이/가) 야옹 하고 있습니다");
     }
 
 }
@@ -137,7 +139,7 @@ class Duck extends Animal {
     }
 
     public void speak() {
-        System.out.println(getName() +"(이/가) 꽥꽥 하고 있습니다");
+        System.out.println("(이/가) 꽥꽥 하고 있습니다");
     }
 
     public void swim() { System.out.println(getName() +"(이/가)  헤엄치고 있습니다"); }
