@@ -1,11 +1,11 @@
 package com.kwanwoo.java;
 
 /**
- * com.kwanwoo.java.com.kwawnoo.com.kwanwoo.java.AnimalSimulator
- * 3개의 com.kwanwoo.java.com.kwawnoo.com.kwanwoo.java.Dog 객체, 3개의 com.kwanwoo.java.com.kwawnoo.com.kwanwoo.java.Cat 객체
- * 3개의 com.kwanwoo.java.com.kwawnoo.com.kwanwoo.java.Duck 객체를 생성하여 이들을 com.kwawnoo.com.kwanwoo.java.Animal 객체 배열에 저장한다.
+ * com.kwanwoo.java.AnimalSimulator
+ * 3개의 com.kwanwoo.java.Dog 객체, 3개의 com.kwanwoo.java.Cat 객체
+ * 3개의 com.kwanwoo.java.Duck 객체, 1개의 com.kwanwoo.java.Fish 객체를 생성하여 이들을 com.kwawnoo.java.Animal 객체 배열에 저장한다.
  *
- * com.kwawnoo.com.kwanwoo.java.Animal 객체 배열에서 랜덤으로 선택된 com.kwanwoo.java.com.kwawnoo.com.kwanwoo.java.Animal 객체의 상태를 출력하는
+ * com.kwawnoo.java.Animal 객체 배열에서 랜덤으로 선택된 com.kwanwoo.java.Animal 객체의 상태를 출력하는
  * 과정을 열번 반복하는 간단한 시뮬레이터 프로그램이다
  *
  * @see <a href="https://github.com/kwanulee/JavaExample/blob/master/Polymorphism/AnimalSimulator(MethodOverriding)/src/com/kwanwoo/java/AnimalSimulator.java">
@@ -15,7 +15,7 @@ package com.kwanwoo.java;
  * com.kwanwoo.java.Duck 클래스에서 swim() 메소드를 추출하여 Swimable 인터페이스의 메소드로 정의하였다
  * 이는 새로운 Animal의 서브 클래스인 Fish를 추가함에 있어서, Fish 클래스에 필요없는 speak()와 move()를 Animal 클래스로부터 상속받지 않고,
  * Duck 클래스에도 필요한 swim() 메소드를 Swimable 인터페이스에 정의함으로써, 코드의 간결함과 재사용성을 극대화 시켰다
- * 이에 따라 48-72 라인의 코드가 이전버전에 비해서 다소 변경되었음을 확인하기 바란다.
+ * 이에 따라 49-74 라인의 코드가 이전버전에 비해서 다소 변경되었음을 확인하기 바란다.
  * 즉 animal 객체 변수가 어떠한 인터페이스 타입인지에 따라서, 해당 인터페이스에 정의된 메소드를 호출하는 방식으로 코드를 간결화 하였다
  */
 public class AnimalSimulator {
