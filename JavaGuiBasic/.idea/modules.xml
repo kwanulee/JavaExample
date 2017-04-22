@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BorderLayout/BorderLayout.iml" filepath="$PROJECT_DIR$/BorderLayout/BorderLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ContePaneChange/ContePaneChange.iml" filepath="$PROJECT_DIR$/ContePaneChange/ContePaneChange.iml" />
       <module fileurl="file://$PROJECT_DIR$/ContentPane/ContentPane.iml" filepath="$PROJECT_DIR$/ContentPane/ContentPane.iml" />
       <module fileurl="file://$PROJECT_DIR$/ContentPane(IntelliJ form)/ContentPane(IntelliJ form).iml" filepath="$PROJECT_DIR$/ContentPane(IntelliJ form)/ContentPane(IntelliJ form).iml" />
       <module fileurl="file://$PROJECT_DIR$/FlowLayout/FlowLayout.iml" filepath="$PROJECT_DIR$/FlowLayout/FlowLayout.iml" />
