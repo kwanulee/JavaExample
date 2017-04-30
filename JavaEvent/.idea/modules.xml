@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AnonymoustClassListener/AnonymoustClassListener.iml" filepath="$PROJECT_DIR$/AnonymoustClassListener/AnonymoustClassListener.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FlyingTextEx/FlyingTextEx.iml" filepath="$PROJECT_DIR$/FlyingTextEx/FlyingTextEx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IndependentClassListener/IndependentClassListener.iml" filepath="$PROJECT_DIR$/IndependentClassListener/IndependentClassListener.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InnerClassListener/InnerClassListener.iml" filepath="$PROJECT_DIR$/InnerClassListener/InnerClassListener.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaEvent.iml" filepath="$PROJECT_DIR$/JavaEvent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KeyCharEx/KeyCharEx.iml" filepath="$PROJECT_DIR$/KeyCharEx/KeyCharEx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MouseAdapterEx/MouseAdapterEx.iml" filepath="$PROJECT_DIR$/MouseAdapterEx/MouseAdapterEx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MouseEventAllEx/MouseEventAllEx.iml" filepath="$PROJECT_DIR$/MouseEventAllEx/MouseEventAllEx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MouseListenerEx/MouseListenerEx.iml" filepath="$PROJECT_DIR$/MouseListenerEx/MouseListenerEx.iml" />
+    </modules>
+  </component>
+</project>
