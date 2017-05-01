@@ -2,21 +2,31 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-public class KeyCharExFrame extends JFrame{
-    JLabel la =
-            new JLabel("<Enter>키로 배경색이 바뀝니다");
+public class KeyCharEx extends JFrame{
 
-    KeyCharExFrame() {
-        super("KeyListener의 문자 키 입력 예제");
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        Container c = getContentPane();
-        c.setLayout(new FlowLayout());
-        c.add(la);
-        c.addKeyListener(new MyKeyListener());
-        setSize(250, 150);
-        setVisible(true);
-        c.requestFocus(); // 컨텐트팬에 포커스 설정
+    public static void main(String[] args) {
+        JFrame frame = new JFrame();
+        frame.setTitle("KeyListener의 문자 키 입력 예제");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        JPanel panel = new ColorPanel();
+        frame.setContentPane(panel);
+
+        frame.setSize(250, 150);
+        frame.setVisible(true);
+        panel.requestFocus();
     }
+}
+
+class ColorPanel extends JPanel {
+    JLabel la = new JLabel("<Enter>키로 배경색이 바뀝니다");
+
+    ColorPanel() {
+        setLayout(new FlowLayout());
+        add(la);
+        addKeyListener(new MyKeyListener());
+
+    }
+
     class MyKeyListener extends KeyAdapter {
         public void keyPressed(KeyEvent e) {
             // 임의의 색을 만들기 위해 랜덤하게 r, g, b 성분 생성
@@ -27,15 +37,12 @@ public class KeyCharExFrame extends JFrame{
             switch(e.getKeyChar()) { // 입력된 키 문자
                 case '\n': // <Enter> 키 입력
                     la.setText("r=" + r + ", g=" + g + ", b=" + b);
-                    getContentPane().setBackground(
+                    setBackground(
                             new Color(r, g, b));
                     break;
                 case 'q':
                     System.exit(0);
             }
         }
-    }
-    public static void main(String[] args) {
-        new KeyCharExFrame();
     }
 }
