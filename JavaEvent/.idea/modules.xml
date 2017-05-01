@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/KeyCharEx/KeyCharEx.iml" filepath="$PROJECT_DIR$/KeyCharEx/KeyCharEx.iml" />
       <module fileurl="file://$PROJECT_DIR$/MouseAdapterEx/MouseAdapterEx.iml" filepath="$PROJECT_DIR$/MouseAdapterEx/MouseAdapterEx.iml" />
       <module fileurl="file://$PROJECT_DIR$/MouseEventAllEx/MouseEventAllEx.iml" filepath="$PROJECT_DIR$/MouseEventAllEx/MouseEventAllEx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MouseKeyEventEx/MouseKeyEventEx.iml" filepath="$PROJECT_DIR$/MouseKeyEventEx/MouseKeyEventEx.iml" />
       <module fileurl="file://$PROJECT_DIR$/MouseListenerEx/MouseListenerEx.iml" filepath="$PROJECT_DIR$/MouseListenerEx/MouseListenerEx.iml" />
     </modules>
   </component>
