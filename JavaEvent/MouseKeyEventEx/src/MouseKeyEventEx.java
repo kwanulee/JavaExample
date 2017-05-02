@@ -21,30 +21,22 @@ class ContentPane extends JPanel {
     ContentPane() {
         setBackground(Color.WHITE);
         setLayout(null);
-        addMouseListener(new MouseAdapter() {
-            @Override
-            public void mousePressed(MouseEvent e) {
-                JLabel label = new JLabel(Integer.toString(count++));
-                label.setBounds(e.getX(), e.getY(), 20, 20);
-                add(label);
-                label.addMouseListener(new MyMouseListener());
-                label.addKeyListener(new KeyAdapter() {
-                    @Override
-                    public void keyPressed(KeyEvent e) {
-                        if (e.getKeyChar() == 'd') {
-                            remove((JLabel) e.getSource());
-                    
-                            revalidate();
-                            repaint();
-                        }
-                    }
-                });
-                revalidate();
-            }
-        });
+        addMouseListener(new PanelMouseListener());
     }
 
-    class MyMouseListener extends MouseAdapter {
+    class PanelMouseListener extends MouseAdapter {
+        @Override
+        public void mousePressed(MouseEvent e) {
+            JLabel label = new JLabel(Integer.toString(count++));
+            label.setBounds(e.getX(), e.getY(), 20, 20);
+            add(label);
+            label.addMouseListener(new LabelMouseListener());
+            label.addKeyListener(new LabelKeyListener());
+            revalidate();
+        }
+    }
+
+    class LabelMouseListener extends MouseAdapter {
         public void mousePressed(MouseEvent e) {
             JLabel la = (JLabel) e.getSource();
             la.setOpaque(true);
@@ -58,4 +50,15 @@ class ContentPane extends JPanel {
             la.setBackground(Color.WHITE);
         }
     }
+
+    class LabelKeyListener extends KeyAdapter {
+        public void keyPressed(KeyEvent e) {
+            if (e.getKeyChar() == 'd') {
+                remove((Component) e.getSource());
+                revalidate();
+                repaint();
+            }
+        }
+    }
+
 }
