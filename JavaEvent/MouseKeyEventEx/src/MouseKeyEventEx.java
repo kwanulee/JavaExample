@@ -33,6 +33,7 @@ class ContentPane extends JPanel {
             label.addMouseListener(new LabelMouseListener());
             label.addKeyListener(new LabelKeyListener());
             revalidate();
+            repaint();
         }
     }
 
