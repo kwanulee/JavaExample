@@ -3,8 +3,6 @@ import java.awt.event.*;
 import java.awt.*;
 
 public class TextAreaEx extends JFrame {
-
-
     private TextAreaEx() {
         setTitle("텍스트영역 만들기 예제");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);

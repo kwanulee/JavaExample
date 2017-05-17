@@ -40,7 +40,7 @@ public class OptionPaneEx extends JFrame {
 
             confirmBtn.addActionListener(new ActionListener() {
                 public void actionPerformed(ActionEvent e) {
-                    int result = JOptionPane.showConfirmDialog(null,
+                    int result = JOptionPane.showConfirmDialog(getParent(),
                             "계속할 것입니까?", "Confirm",
                             JOptionPane.YES_NO_OPTION);
                     if(result == JOptionPane.CLOSED_OPTION)
@@ -54,7 +54,7 @@ public class OptionPaneEx extends JFrame {
 
             messageBtn.addActionListener(new ActionListener() {
                 public void actionPerformed(ActionEvent e) {
-                    JOptionPane.showMessageDialog(null,
+                    JOptionPane.showMessageDialog(getParent(),
                             "조심하세요", "Message",
                             JOptionPane.ERROR_MESSAGE);
                 }

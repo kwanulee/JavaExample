@@ -23,6 +23,7 @@ public class RadioButtonEx extends JFrame {
         c.add(apple); c.add(pear); c.add(cherry);
         setSize(250,150);
         setVisible(true);
+
         MyItemListener iListener = new MyItemListener();
         apple.addItemListener(iListener);
         pear.addItemListener(iListener);

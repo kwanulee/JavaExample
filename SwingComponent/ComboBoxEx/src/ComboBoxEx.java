@@ -12,7 +12,8 @@ public class ComboBoxEx extends JFrame {
         JComboBox combo = new JComboBox<String>(fruits);
         c.add(combo);
 
-        ImageIcon [] images = { new ImageIcon("images/apple.jpg"),
+        ImageIcon [] images = {
+                new ImageIcon("images/apple.jpg"),
                 new ImageIcon("images/banana.jpg"),
                 new ImageIcon("images/mango.jpg") };
         JLabel imgLabel = new JLabel(images[0]);
