@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaThread.iml" filepath="$PROJECT_DIR$/JavaThread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RunnableTimerEx/RunnableTimerEx.iml" filepath="$PROJECT_DIR$/RunnableTimerEx/RunnableTimerEx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThreadMainEx/ThreadMainEx.iml" filepath="$PROJECT_DIR$/ThreadMainEx/ThreadMainEx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThreadSynchronizationEx1/ThreadSynchronizationEx1.iml" filepath="$PROJECT_DIR$/ThreadSynchronizationEx1/ThreadSynchronizationEx1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThreadSynchronizationEx2/ThreadSynchronizationEx2.iml" filepath="$PROJECT_DIR$/ThreadSynchronizationEx2/ThreadSynchronizationEx2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThreadTimerEx/ThreadTimerEx.iml" filepath="$PROJECT_DIR$/ThreadTimerEx/ThreadTimerEx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VibratingFrame/VibratingFrame.iml" filepath="$PROJECT_DIR$/VibratingFrame/VibratingFrame.iml" />
+    </modules>
+  </component>
+</project>
