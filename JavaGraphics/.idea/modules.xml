@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GraphicsColorFontEx/GraphicsColorFontEx.iml" filepath="$PROJECT_DIR$/GraphicsColorFontEx/GraphicsColorFontEx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GraphicsDrawImageEx1/GraphicsDrawImageEx1.iml" filepath="$PROJECT_DIR$/GraphicsDrawImageEx1/GraphicsDrawImageEx1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GraphicsDrawImageEx2/GraphicsDrawImageEx2.iml" filepath="$PROJECT_DIR$/GraphicsDrawImageEx2/GraphicsDrawImageEx2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GraphicsDrawLineEx/GraphicsDrawLineEx.iml" filepath="$PROJECT_DIR$/GraphicsDrawLineEx/GraphicsDrawLineEx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GraphicsDrawOvalMouseEx/GraphicsDrawOvalMouseEx.iml" filepath="$PROJECT_DIR$/GraphicsDrawOvalMouseEx/GraphicsDrawOvalMouseEx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GraphicsFillEx/GraphicsFillEx.iml" filepath="$PROJECT_DIR$/GraphicsFillEx/GraphicsFillEx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaGraphics.iml" filepath="$PROJECT_DIR$/JavaGraphics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paintJPanelEx/paintJPanelEx.iml" filepath="$PROJECT_DIR$/paintJPanelEx/paintJPanelEx.iml" />
+    </modules>
+  </component>
+</project>
