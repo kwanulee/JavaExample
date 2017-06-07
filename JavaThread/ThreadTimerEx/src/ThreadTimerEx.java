@@ -3,23 +3,25 @@ import javax.swing.*;
 
 class TimerThread extends Thread {
     JLabel timerLabel; // 타이머 값이 출력되는 레이블
+
     public TimerThread(JLabel timerLabel) {
         this.timerLabel = timerLabel;
     }
 
-    // 스레드 코드. run()이 종료하면 스레드 종료
+    int n = 0;
+
     public void run() {
-        int n=0; // 타이머 카운트 값
-        while(true) { // 무한 루프
+        while(true) { // 무한루프를 실행한다.
             timerLabel.setText(Integer.toString(n));
-            n++; // 카운트 증가
+            n++;
             try {
-                Thread.sleep(1000); // 1초동안 잠을 잔다.
+                sleep(1000); //1초 동안 잠을 잔 후 깨어난다.
             }
-            catch(InterruptedException e) {	return;}
+            catch(InterruptedException e){return;}
         }
     }
 }
+
 
 public class ThreadTimerEx extends JFrame {
     public ThreadTimerEx() {
@@ -29,14 +31,16 @@ public class ThreadTimerEx extends JFrame {
         c.setLayout(new FlowLayout());
 
         // 타이머 값을 출력할 레이블 생성
-        JLabel timerLabel = new JLabel();
+        JLabel timerLabel = new JLabel("0");
         timerLabel.setFont(new Font("Gothic", Font.ITALIC, 80));
         c.add(timerLabel);
 
-        TimerThread th = new TimerThread(timerLabel);
         setSize(250,150);
         setVisible(true);
-        th.start(); // 타이머 스레드의 실행을 시작하게 한다.
+
+        TimerThread th = new TimerThread(timerLabel);
+        th.start();
+
     }
 
     public static void main(String[] args) {

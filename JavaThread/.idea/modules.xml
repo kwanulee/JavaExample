@@ -5,8 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/JavaThread.iml" filepath="$PROJECT_DIR$/JavaThread.iml" />
       <module fileurl="file://$PROJECT_DIR$/RunnableTimerEx/RunnableTimerEx.iml" filepath="$PROJECT_DIR$/RunnableTimerEx/RunnableTimerEx.iml" />
       <module fileurl="file://$PROJECT_DIR$/ThreadMainEx/ThreadMainEx.iml" filepath="$PROJECT_DIR$/ThreadMainEx/ThreadMainEx.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ThreadSynchronizationEx1/ThreadSynchronizationEx1.iml" filepath="$PROJECT_DIR$/ThreadSynchronizationEx1/ThreadSynchronizationEx1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ThreadSynchronizationEx2/ThreadSynchronizationEx2.iml" filepath="$PROJECT_DIR$/ThreadSynchronizationEx2/ThreadSynchronizationEx2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThreadTest/ThreadTest.iml" filepath="$PROJECT_DIR$/ThreadTest/ThreadTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/ThreadTimerEx/ThreadTimerEx.iml" filepath="$PROJECT_DIR$/ThreadTimerEx/ThreadTimerEx.iml" />
       <module fileurl="file://$PROJECT_DIR$/VibratingFrame/VibratingFrame.iml" filepath="$PROJECT_DIR$/VibratingFrame/VibratingFrame.iml" />
     </modules>
