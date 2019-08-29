@@ -11,7 +11,7 @@ public class Hello {
      * @param args
      */
     public static void main(String[] args) {
-        int year = 2017 ;
+        int year = 2019 ;
 
         printGreeting(year);
     }
@@ -22,7 +22,7 @@ public class Hello {
      */
     public static void printGreeting(int year) {
         System.out.print("Welcome to ");        // 문자열 "Welcome to " 출력
-        System.out.print(year);                   // 정수 year 값 2017 출력
+        System.out.print(year);                 // 정수 year 값 2019 출력
         System.out.print(" Java Class");        // 문자열 " Java Class" 출력
     }
 }
