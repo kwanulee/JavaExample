@@ -15,7 +15,7 @@ public class FileClassExample {
     }
 
     public static void main(String[] args) {
-        File f1 = new File("c:\\windows\\system.ini");
+        File f1 = new File("data/input.txt");
         System.out.println(f1.getPath() + ", " + f1.getParent() + ", " +
                 f1.getName());
         String res = "";
