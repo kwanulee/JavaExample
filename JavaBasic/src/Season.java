@@ -1,4 +1,4 @@
-package com.kwanwoo.java;
+
 
 import java.util.Scanner;
 public class Season {

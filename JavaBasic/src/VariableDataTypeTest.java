@@ -1,4 +1,4 @@
-package com.kwanwoo.java;
+
 
 /**
  * VaraibleDataTypeTest의 main() 함수에는 다수의 오류를 포함한 코드가 있습니다.
