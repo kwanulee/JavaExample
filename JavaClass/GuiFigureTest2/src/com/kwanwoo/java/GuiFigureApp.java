@@ -1,9 +1,10 @@
+package com.kwanwoo.java;
 import java.util.Scanner;
 
 public class GuiFigureApp {
 
 	static String[] shapes = { "RECTANGLE", "CIRCLE", "TRIANGLE", "AMEBA" };		// 아메바 추가 
-	static String[] shapes_sounds = { "rectangle.aif", "circle.aif", "triangle.aif", "ameba.hif" }; // ameba.hif 추가 
+	static String[] shapes_sound = { "rectangle.aif", "circle.aif", "triangle.aif", "ameba.hif" }; // ameba.hif 추가 
 
 	public static void main(String[] args) {
 		while (true) {
@@ -21,6 +22,7 @@ public class GuiFigureApp {
 		System.out.println("1. 사각형클릭, 2.원클릭, 3.삼각형클릭, 4.아메바, 5.종료"); // 아메바 추가 
 		System.out.print(">>");
 		int select = scanner.nextInt();
+		scanner.close();
 		return select;
 	}
 
@@ -33,9 +35,9 @@ public class GuiFigureApp {
 
 	static void playSound(int shapeNum) {
 		if (shapes[shapeNum-1].equals("AMEBA"))									// 추가 
-			System.out.println("HIF 사운드 재생:"+shapes_sounds[shapeNum-1]);		// 추가 
+			System.out.println("HIF 사운드 재생:"+shapes_sound[shapeNum-1]);		// 추가 
 		else
-			System.out.println("AIF 사운드 재생:"+shapes_sounds[shapeNum-1]);
+			System.out.println("AIF 사운드 재생:"+shapes_sound[shapeNum-1]);
 
 
 	}
