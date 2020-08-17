@@ -23,7 +23,6 @@ public class GuiFigureApp {
 		System.out.println("1. 사각형클릭, 2.원클릭, 3.삼각형클릭, 4.종료");
 		System.out.print(">>");
 		int select = scanner.nextInt();
-		scanner.close();
 		return select;
 	}
 
