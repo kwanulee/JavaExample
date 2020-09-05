@@ -12,17 +12,13 @@ package com.kwanwoo.java;
  */
 public class DogSimulator {
     public static void main(String [] args) {
-        Dog aDog = new Dog();
+        Dog aDog = new Dog("진도개", "화랑", 3);
         Dog bDog = new Dog("삽살개","레오",2);
-
-        aDog.type = "진도개";
-        aDog.setName("화랑");
-        aDog.setAge(3);
 
         for (int i=0; i<10; i++) {
             Dog dog;
-            int dogChoice = (int) (Math.random() * 2) + 1;
-            if (dogChoice == 1)
+            int dogChoice = (int) (Math.random() * 2);
+            if (dogChoice == 0)
                 dog = aDog;
             else
                 dog = bDog;
